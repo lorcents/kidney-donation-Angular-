@@ -35,6 +35,10 @@ import {ForgotPasswordComponent} from "./auth/forgot-password/forgot-password.co
 import {ForgotPasswordModule} from "./auth/forgot-password/forgot-password.module";
 import {FaqComponent}  from "./help/faq.component";
 import {FaqModule}  from "./help/faq.module";
+import { AngularFirestore } from '@angular/fire/firestore';
+
+
+
 
 
 const appRoutes: Routes = [
